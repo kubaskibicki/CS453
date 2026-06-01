@@ -1,0 +1,15 @@
+nohup: ignoring input
+2026-05-26 12:58:20,614 INFO amr abs: kill_rate=17.9% mrs=1
+2026-05-26 12:58:21,311 INFO amr asinh: kill_rate=52.6% mrs=1
+2026-05-26 12:58:22,068 INFO amr atan: kill_rate=42.3% mrs=1
+2026-05-26 12:58:23,778 INFO amr cos: kill_rate=0.0% mrs=1
+/home/ubuntu/team2/ast/amr/mutants.py:16: RuntimeWarning: invalid value encountered in log1p
+  return lambda x, v=v: base(x + v)
+/home/ubuntu/team2/ast/amr/mutants.py:18: RuntimeWarning: invalid value encountered in log1p
+  return lambda x, v=v: base(x * v)
+2026-05-26 12:58:26,777 INFO amr log1p: kill_rate=70.5% mrs=1
+/home/ubuntu/team2/ast/amr/mutants.py:16: RuntimeWarning: invalid value encountered in log10
+  return lambda x, v=v: base(x + v)
+2026-05-26 12:58:29,991 INFO amr log10: kill_rate=66.7% mrs=3
+2026-05-26 12:58:32,184 INFO amr sin: kill_rate=0.0% mrs=1
+2026-05-26 12:58:33,958 INFO amr tan: kill_rate=24.4% mrs=1

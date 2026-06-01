@@ -1,0 +1,2 @@
+function,kill_rate_pct,mr_count,mr_precision_pct,avg_pso_iterations,runtime_seconds
+sin,100.0,3,100.0,100.0,0.318

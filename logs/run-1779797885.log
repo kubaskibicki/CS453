@@ -1,0 +1,16 @@
+2026-05-26 12:18:08,254 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:18:09,446 INFO amr abs: kill_rate=17.9% mrs=1
+2026-05-26 12:18:12,473 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:18:13,306 INFO amr asinh: kill_rate=52.6% mrs=1
+2026-05-26 12:18:17,710 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:18:18,592 INFO amr atan: kill_rate=42.3% mrs=1
+2026-05-26 12:18:22,374 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:18:23,870 INFO amr cos: kill_rate=56.4% mrs=5
+2026-05-26 12:18:27,043 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:18:27,519 INFO amr log1p: kill_rate=0.0% mrs=0
+2026-05-26 12:18:30,218 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:18:30,219 WARNING amr recon failed for log10 (float() argument must be a string or a real number, not 'NoneType'); using default bounds
+2026-05-26 12:18:30,558 INFO amr log10: kill_rate=0.0% mrs=0
+2026-05-26 12:18:31,676 INFO amr sin: kill_rate=51.3% mrs=5
+2026-05-26 12:18:35,404 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:18:36,727 INFO amr tan: kill_rate=33.3% mrs=3

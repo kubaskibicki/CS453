@@ -1,0 +1,24 @@
+{
+  "function": "asinh",
+  "mr_count": 1,
+  "kill_rate": 0.5256410256410257,
+  "mrs": [
+    {
+      "c1": 2.0,
+      "c2": 2.0,
+      "a": -1.0,
+      "b": 0.0,
+      "d": 7.435201994506965e-05
+    }
+  ],
+  "metrics": {
+    "kill_rate_pct": 52.56,
+    "killed": 41,
+    "n_mutants": 78,
+    "mr_precision_pct": 9.090909090909092,
+    "avg_pso_iterations": 106.9375,
+    "converged_runs": 16,
+    "runtime_seconds": 5.88,
+    "used_llm": true
+  }
+}

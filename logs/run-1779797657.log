@@ -1,0 +1,2 @@
+2026-05-26 12:14:23,613 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-26 12:14:23,903 INFO amr sin: kill_rate=51.3% mrs=2

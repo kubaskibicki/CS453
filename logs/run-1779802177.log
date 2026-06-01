@@ -1,0 +1,8 @@
+2026-05-26 13:29:43,219 INFO amr abs: kill_rate=50.0% mrs=14
+2026-05-26 13:29:46,485 INFO amr asinh: kill_rate=52.6% mrs=1
+2026-05-26 13:29:48,811 INFO amr atan: kill_rate=42.3% mrs=1
+2026-05-26 13:29:51,145 INFO amr cos: kill_rate=100.0% mrs=10
+2026-05-26 13:29:57,766 INFO amr log1p: kill_rate=79.5% mrs=2
+2026-05-26 13:30:02,444 INFO amr log10: kill_rate=92.3% mrs=5
+2026-05-26 13:30:04,919 INFO amr sin: kill_rate=100.0% mrs=9
+2026-05-26 13:30:07,355 INFO amr tan: kill_rate=100.0% mrs=10

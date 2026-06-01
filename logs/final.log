@@ -1,0 +1,21 @@
+nohup: ignoring input
+2026-05-27 06:18:08,005 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 06:18:13,427 INFO amr abs: kill_rate=50.0% mrs=13
+2026-05-27 06:18:16,823 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 06:18:19,308 INFO amr asinh: kill_rate=52.6% mrs=1
+2026-05-27 06:18:23,912 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 06:18:27,077 INFO amr atan: kill_rate=42.3% mrs=1
+2026-05-27 06:18:30,647 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 06:18:33,927 INFO amr cos: kill_rate=71.8% mrs=8
+2026-05-27 06:18:37,242 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+/home/ubuntu/team2/ast/amr/mutants.py:16: RuntimeWarning: invalid value encountered in log1p
+  return lambda x, v=v: base(x + v)
+2026-05-27 06:18:44,941 INFO amr log1p: kill_rate=79.5% mrs=3
+2026-05-27 06:18:47,750 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+/home/ubuntu/team2/ast/amr/mutants.py:16: RuntimeWarning: invalid value encountered in log10
+  return lambda x, v=v: base(x + v)
+2026-05-27 06:18:54,851 INFO amr log10: kill_rate=66.7% mrs=2
+2026-05-27 06:18:58,455 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 06:19:01,982 INFO amr sin: kill_rate=71.8% mrs=6
+2026-05-27 06:19:08,164 INFO httpx HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-05-27 06:19:12,036 INFO amr tan: kill_rate=32.0% mrs=2

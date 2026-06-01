@@ -1,0 +1,24 @@
+{
+  "function": "atan",
+  "mr_count": 1,
+  "kill_rate": 0.4230769230769231,
+  "mrs": [
+    {
+      "c1": 2.0,
+      "c2": 2.0,
+      "a": -1.0,
+      "b": 0.0,
+      "d": -5.555635257271235e-06
+    }
+  ],
+  "metrics": {
+    "kill_rate_pct": 42.31,
+    "killed": 33,
+    "n_mutants": 78,
+    "mr_precision_pct": 10.0,
+    "avg_pso_iterations": 103.625,
+    "converged_runs": 16,
+    "runtime_seconds": 7.769,
+    "used_llm": true
+  }
+}

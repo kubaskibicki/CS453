@@ -1,0 +1,8 @@
+2026-05-26 12:56:50,688 INFO amr skipping abs (result exists)
+2026-05-26 12:56:50,688 INFO amr skipping asinh (result exists)
+2026-05-26 12:56:50,688 INFO amr skipping atan (result exists)
+2026-05-26 12:56:50,688 INFO amr skipping cos (result exists)
+2026-05-26 12:56:50,688 INFO amr skipping log1p (result exists)
+2026-05-26 12:56:50,689 INFO amr skipping log10 (result exists)
+2026-05-26 12:56:50,689 INFO amr skipping sin (result exists)
+2026-05-26 12:56:50,689 INFO amr skipping tan (result exists)
