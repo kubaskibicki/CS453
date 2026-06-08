@@ -1,0 +1,42 @@
+{
+  "source": {
+    "tool": "AutoMR",
+    "baseline": "MRI",
+    "paper": "Automatic Discovery of Accurate and Succinct Metamorphic Relationships",
+    "repo": "https://github.com/bolzzzz/AutoMR",
+    "subject_programs": "Apache Commons Math 2.2 (8 numerical functions)",
+    "extracted_from": "Table V (per-program detection), Table VI (aggregate performance), Fig. 5",
+    "notes": [
+      "The 625 mutants aren't in the AutoMR repo. They are mutated Apache Commons Math 2.2 Java source files, made by applying mutation operators to the source, and came from the MRI paper [16] (Zhang et al.). The repo ships only the inferred-MR results (.npz/.pkl) and the algorithm.",
+      "Paper inconsistency, kept verbatim: per-program seeded_faults in Table V sum to 953, but the headline (RQ2, Fig. 5, Table VI) says 625 total. Both are left unchanged here.",
+      "The paper gives MRI kills only in aggregate (94), not per function, so MRI appears only in the aggregate block."
+    ]
+  },
+  "aggregate": {
+    "total_mutants_headline": 625,
+    "per_program_seeded_faults_sum": 953,
+    "mri": {
+      "killed": 94,
+      "kill_rate_pct_vs_625": 15.04,
+      "avg_seconds_per_mr_and_fault": 3.9
+    },
+    "automr": {
+      "killed": 374,
+      "kill_rate_pct_vs_625": 59.84,
+      "avg_seconds_per_mr_and_fault": 4.7
+    },
+    "pso_runs": 500,
+    "pso_iterations": 350,
+    "false_detections": 0
+  },
+  "per_program": {
+    "abs":   {"seeded_faults": 14,  "automr_killed": 10, "automr_kill_rate_pct": 71.4},
+    "asinh": {"seeded_faults": 297, "automr_killed": 70, "automr_kill_rate_pct": 23.6},
+    "atan":  {"seeded_faults": 188, "automr_killed": 96, "automr_kill_rate_pct": 51.1},
+    "cos":   {"seeded_faults": 38,  "automr_killed": 16, "automr_kill_rate_pct": 42.1},
+    "log1p": {"seeded_faults": 230, "automr_killed": 92, "automr_kill_rate_pct": 40.0},
+    "log10": {"seeded_faults": 116, "automr_killed": 40, "automr_kill_rate_pct": 34.5},
+    "sin":   {"seeded_faults": 34,  "automr_killed": 18, "automr_kill_rate_pct": 52.9},
+    "tan":   {"seeded_faults": 36,  "automr_killed": 32, "automr_kill_rate_pct": 88.9}
+  }
+}

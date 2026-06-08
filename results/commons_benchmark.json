@@ -1,0 +1,70 @@
+{
+  "subject": "Apache Commons Math 2.2 port (amr/commons_math.py)",
+  "mutant_kind": "source-level AOR/ROR/constant mutants",
+  "n_inputs": 200,
+  "kill_k": 10.0,
+  "aggregate": {
+    "killed": 142,
+    "n_mutants": 625,
+    "kill_rate_pct": 22.7,
+    "false_detections": 0
+  },
+  "per_program": {
+    "abs": {
+      "killed": 1,
+      "n_mutants": 2,
+      "kill_rate_pct": 50.0,
+      "mr_count": 13,
+      "false_detections": 0
+    },
+    "asinh": {
+      "killed": 4,
+      "n_mutants": 244,
+      "kill_rate_pct": 1.6,
+      "mr_count": 1,
+      "false_detections": 0
+    },
+    "atan": {
+      "killed": 9,
+      "n_mutants": 56,
+      "kill_rate_pct": 16.1,
+      "mr_count": 1,
+      "false_detections": 0
+    },
+    "cos": {
+      "killed": 16,
+      "n_mutants": 64,
+      "kill_rate_pct": 25.0,
+      "mr_count": 8,
+      "false_detections": 0
+    },
+    "log1p": {
+      "killed": 20,
+      "n_mutants": 73,
+      "kill_rate_pct": 27.4,
+      "mr_count": 3,
+      "false_detections": 0
+    },
+    "log10": {
+      "killed": 21,
+      "n_mutants": 51,
+      "kill_rate_pct": 41.2,
+      "mr_count": 2,
+      "false_detections": 0
+    },
+    "sin": {
+      "killed": 32,
+      "n_mutants": 63,
+      "kill_rate_pct": 50.8,
+      "mr_count": 6,
+      "false_detections": 0
+    },
+    "tan": {
+      "killed": 39,
+      "n_mutants": 72,
+      "kill_rate_pct": 54.2,
+      "mr_count": 2,
+      "false_detections": 0
+    }
+  }
+}
